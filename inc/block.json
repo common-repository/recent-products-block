@@ -1,0 +1,169 @@
+{
+	"apiVersion": "1",
+	"name": "wrp/recent-products",
+	"title": "WooCommerce Recent Products",
+	"description": "Display WooCommerce Recent Products",
+	"category": "widgets",
+	"keywords": [
+		"woocommerce",
+		"recent products",
+		"latest products"
+	],
+	"textdomain": "recent-products",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"productsPerPage": {
+			"type": "number",
+			"default": 9
+		},
+		"stockStatus": {
+			"type": "array",
+			"default": [
+				"instock",
+				"outofstock",
+				"onbackorder"
+			]
+		},
+		"selectedCategories": {
+			"type": "array",
+			"default": []
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "40px"
+		},
+		"isImage": {
+			"type": "boolean",
+			"default": true
+		},
+		"isTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"isRating": {
+			"type": "boolean",
+			"default": false
+		},
+		"isPrice": {
+			"type": "boolean",
+			"default": true
+		},
+		"isAddToCartBtn": {
+			"type": "boolean",
+			"default": true
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"productBG": {
+			"type": "object",
+			"default": {
+				"color": "#0000"
+			}
+		},
+		"productBorder": {
+			"type": "object",
+			"default": {}
+		},
+		"productShadow": {
+			"type": "object",
+			"default": {}
+		},
+		"titleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 22,
+					"tablet": 20,
+					"mobile": 18
+				}
+			}
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#333"
+		},
+		"ratingColor": {
+			"type": "string",
+			"default": "#ffdf00"
+		},
+		"priceTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 14,
+					"tablet": 14,
+					"mobile": 14
+				},
+				"fontWeight": 700
+			}
+		},
+		"priceColor": {
+			"type": "string",
+			"default": "#222"
+		},
+		"addToCartTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				},
+				"fontWeight": 600
+			}
+		},
+		"addToCartColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"onSaleColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	},
+	"editorScript": "file:../dist/editor.js"
+}

@@ -1,0 +1,255 @@
+# Copyright (C) 2024 bPlugins
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Recent Products Block 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/recent-products-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-24T15:54:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: recent-products\n"
+
+#. Plugin Name of the plugin
+msgid "Recent Products Block"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display WooCommerce Recent Products"
+msgstr ""
+
+#. Author of the plugin
+msgid "bPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bplugins.com"
+msgstr ""
+
+#: inc/block.php:41
+msgid "No product found! Please add some or change query..."
+msgstr ""
+
+#: inc/block.php:183
+msgid "Sale"
+msgstr ""
+
+#: inc/block.php:187
+msgid "Product on sale"
+msgstr ""
+
+#: index.php:45
+msgid "%1$s WooCommerce Recent Products Block.%2$s requires %1$sWooCommerce%2$s plugin to be active. Please activate WooCommerce to continue."
+msgstr ""
+
+#: index.php:47
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: index.php:51
+msgid "%1$s WooCommerce Recent Products Block.%2$s requires %1$sWooCommerce%2$s plugin to be installed and activated. Please install WooCommerce to continue."
+msgstr ""
+
+#: index.php:53
+msgid "Install WooCommerce"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10326
+msgid "General"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10327
+msgid "Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10364
+msgid "Query"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10365
+msgid "Products Limit:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10370
+msgid "Filter by Stock"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10371
+msgid "Show In Stock Products"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10373
+msgid "Show Out of Stock Products"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10375
+msgid "Show In On Backorder Products"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10379
+msgid "Filter by Category"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10380
+msgid "Select Categories:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10388
+msgid "Layout"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10390
+msgid "Columns:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10395
+msgid "Column Gap:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10397
+msgid "Row Gap:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10401
+msgid "Elements"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10402
+msgid "Show Image"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10404
+msgid "Show Title"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10406
+msgid "Show Rating"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10408
+msgid "Show Price"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10410
+msgid "Show Add To Cart Button"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10416
+msgid "Product"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10417
+msgid "Background:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10419
+msgid "Border:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10421
+msgid "Shadow:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10425
+msgid "Product Title"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10426
+#: dist/editor.js:10439
+#: dist/editor.js:10447
+msgid "Typography:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10427
+#: dist/editor.js:10440
+#: dist/editor.js:10448
+msgid "Font Family may not work in the backend."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10429
+#: dist/editor.js:10434
+#: dist/editor.js:10442
+msgid "Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10433
+msgid "Product Rating"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10438
+msgid "Product Price"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10446
+msgid "Product Add To Cart Button"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10454
+msgid "On Sale Tag"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:10500
+msgid "Loading..."
+msgstr ""
+
+#: inc/block.json
+msgctxt "block title"
+msgid "WooCommerce Recent Products"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block description"
+msgid "Display WooCommerce Recent Products"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "woocommerce"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "recent products"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "latest products"
+msgstr ""
